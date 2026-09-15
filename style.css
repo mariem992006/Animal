@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+
+}
+.the-back{
+    background: linear-gradient(to right, #08254D, #2E73F8);
+}
+.new{
+    color: white;
+    margin-left: 90px;
+    padding-top: 100px;
+}
+.new span{
+    font-size: 70%;
+}
+.pets{
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.view{
+    background-color: #4F6DFF;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.manage{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.blocks{
+    margin-top: 80px;
+    margin-left: 90px;
+    gap: 90px;
+    padding: 30px;
+    justify-content: space-between;
+}
+.block{
+    display: inline-block;
+    width: 250px;
+    height: 150px;  
+    border: 2px solid white;
+    color: white;
+    padding: 20px 30px;
+    margin-right: 60px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.friends{
+    background-color: white;
+    color: black;
+    padding: 60px 90px;
+}
+.meet{
+    color:black;
+    margin-left: 100px;
+    padding: 30px;
+}
+.meet span{
+    color: rgba(255, 255, 255, 25%);
+}
+.hef{
+    color: black;
+    text-decoration: none;
+}
+.pet-friend{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 90px 60px;
+    gap: 30px;
+}
+.card{
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 48%;
+}
+.card img{
+    width: 180px;
+    height: 180px;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+}
+.info{
+    padding: 20px;
+}
+.year{
+    padding-left: 500px;
+}
